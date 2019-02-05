@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/g59011604/.nvm/versions/node/v10.15.1/bin/node',
+1 verbose cli   '/home/g59011604/.nvm/versions/node/v10.15.1/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@6.7.0
+3 info using node@v10.15.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle client@1.0.0~prestart: client@1.0.0
+6 info lifecycle client@1.0.0~start: client@1.0.0
+7 verbose lifecycle client@1.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle client@1.0.0~start: PATH: /home/g59011604/.nvm/versions/node/v10.15.1/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/g59011604/client/node_modules/.bin:/home/g59011604/.nvm/versions/node/v10.15.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+9 verbose lifecycle client@1.0.0~start: CWD: /home/g59011604/client
+10 silly lifecycle client@1.0.0~start: Args: [ '-c', 'webpack-dev-server --mode development --open' ]
+11 silly lifecycle client@1.0.0~start: Returned: code: 1  signal: null
+12 info lifecycle client@1.0.0~start: Failed to exec start script
+13 verbose stack Error: client@1.0.0 start: `webpack-dev-server --mode development --open`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/home/g59011604/.nvm/versions/node/v10.15.1/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:301:16)
+13 verbose stack     at EventEmitter.emit (events.js:189:13)
+13 verbose stack     at ChildProcess.<anonymous> (/home/g59011604/.nvm/versions/node/v10.15.1/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:189:13)
+13 verbose stack     at maybeClose (internal/child_process.js:970:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+14 verbose pkgid client@1.0.0
+15 verbose cwd /home/g59011604/client
+16 verbose Linux 4.9.0-8-amd64
+17 verbose argv "/home/g59011604/.nvm/versions/node/v10.15.1/bin/node" "/home/g59011604/.nvm/versions/node/v10.15.1/bin/npm" "start"
+18 verbose node v10.15.1
+19 verbose npm  v6.7.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error client@1.0.0 start: `webpack-dev-server --mode development --open`
+22 error Exit status 1
+23 error Failed at the client@1.0.0 start script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
